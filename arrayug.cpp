@@ -21,9 +21,9 @@ int main(){
   }
 for(int i=0;i<n;i++){
     if(v[i]==v2[i]){
-        cout<<"gli elementi nella posizione "<<i<<" sono uguali";
+        cout<<"gli elementi nella posizione "<<i<<" sono uguali"<<endl;
         a=true;
-    }else{ cout<<"gli elementi nella posizione "<<i<<" sono diversi";
+    }else{ cout<<"gli elementi nella posizione "<<i<<" sono diversi"<<endl;
         a=false; }
 
 }
