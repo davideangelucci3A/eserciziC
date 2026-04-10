@@ -13,10 +13,10 @@ do{
     if(c>='a'&&'z'<=c){
         cout<<"minuscolo"<<endl;
 
-    }else{
+    }else if(c>='A'&&'Z'<=c ){
 
         cout<<"maiuscolo"<<endl;
-    }
+    }else{        cout<<"carattere non valido"<<endl;}
 
     cout<<"se ci si vuole fermare inserire stop ";
     string a;
